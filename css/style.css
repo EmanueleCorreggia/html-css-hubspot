@@ -12,12 +12,11 @@
 .header-top-left {
   float: left;
   height: 80px;
-  width: 36%;
-  margin-left: 200px;
+  margin-left: 400px;
   line-height: 80px;
 }
 .haeder-top {
-  background-color: #eceeeb;
+  background-color: #F5F8FA;
 }
 .list {
   list-style: none;
@@ -34,24 +33,23 @@
 }
 .header-top-right {
   float: right;
-  
   line-height: 80px;
-  margin-right: 200px;
+  margin-right: 400px;
   margin-left: 100px;
 }
 .login {
   border-style: solid;
   border-radius: 5px;
-  border-color: orange;
+  border-color: #FF8F73;
   background-color: white;
-  text-decoration-color: orange;
+  text-decoration-color: #FF8F73;
   padding: 5px;
 }
 .gethub {
   border-style: solid;
   border-radius: 5px;
-  background-color: orange;
-  border-color: orange;
+  background-color: #FF8F73;
+  border-color: #FF8F73;
   padding: 5px;
 }
 .header-hubspot {
@@ -59,7 +57,7 @@
   height: 80px;
 }
 img {
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 20px;
 }
 .header-hubSpot::after {
@@ -70,7 +68,7 @@ img {
 .header-hubspot-left {
   float: left;
   height: 80px;
-  width: 50%;
+  margin-left: 100px;
   /* background-color: green; */
 }
 .header-hubspot-right {
@@ -90,14 +88,14 @@ img {
 /* main */
 .main-top {
   height: 400px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
   background-color: red;
 }
 .main-crm {
   height: 300px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
   background-color: yellow;
   margin-bottom: 20px;
 }
@@ -112,22 +110,22 @@ img {
 .col-left {
   float: left;
   height: 400px;
-  width: 24%;
+  width: 17.3%;
   background-color: green;
-  margin-left: 200px;
+  margin-left: 400px;
 }
 .col-center {
   float: left;
   height: 400px;
-  width: 24%;
+  width: 17.3%;
   background-color: black;
-  margin-left: 3.4%;
-  margin-right: 3.4%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 .col-right {
   float: left;
   height: 400px;
-  width: 24%;
+  width: 17.5%;
   background-color: grey;
 }
 .learn {
