@@ -3,3 +3,45 @@
   margin: 0;
   padding: 0;
 }
+.haeder-top::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-top-left {
+  float: left;
+  background-color: yellow;
+  height: 80px;
+  width: 50%;
+}
+.header-top-right {
+  float: right;
+  background-color: red;
+  height: 80px;
+  width: 50%;
+}
+.header-hubSpot::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-hubspot-left {
+  float: left;
+  height: 80px;
+  width: 50%;
+  background-color: green;
+}
+.header-hubspot-right {
+  float: right;
+  height: 80px;
+  width: 50%;
+  background-color: blue;
+}
+.better {
+  height: 500px;
+  background-color: grey;
+}
+.header-bottom {
+  height: 80px;
+  background-color: lightgreen;
+}
