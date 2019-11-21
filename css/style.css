@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+/* header */
 .haeder-top::after {
   content: '';
   display: table;
@@ -44,4 +45,60 @@
 .header-bottom {
   height: 80px;
   background-color: lightgreen;
+}
+/* main */
+.main-top {
+  height: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: red;
+}
+.main-crm {
+  height: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+.main-col {
+  margin-bottom: 50px;
+}
+.main-col::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.col-left {
+  float: left;
+  height: 400px;
+  width: 24%;
+  background-color: green;
+  margin-left: 200px;
+}
+.col-center {
+  float: left;
+  height: 400px;
+  width: 24%;
+  background-color: black;
+  margin-left: 0.6%;
+  margin-right: 0.6%;
+}
+.col-right {
+  float: left;
+  height: 400px;
+  width: 24%;
+  background-color: grey;
+}
+.learn {
+  height: 800px;
+  background-color: #00B8AA;
+}
+.final-main {
+  height: 800px;
+  background-color: lightgreen;
+}
+/* footer */
+.page-footer {
+  height: 800px;
+  background-color: grey;
 }
