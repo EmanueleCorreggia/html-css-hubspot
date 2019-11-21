@@ -11,15 +11,56 @@
 }
 .header-top-left {
   float: left;
-  background-color: yellow;
   height: 80px;
-  width: 50%;
+  width: 36%;
+  margin-left: 200px;
+  line-height: 80px;
+}
+.haeder-top {
+  background-color: #eceeeb;
+}
+.list {
+  list-style: none;
+}
+.haeder-top a {
+  color: #33475B;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.haeder-top li {
+  display: inline;
 }
 .header-top-right {
   float: right;
-  background-color: red;
+  
+  line-height: 80px;
+  margin-right: 200px;
+  margin-left: 100px;
+}
+.login {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: orange;
+  background-color: white;
+  text-decoration-color: orange;
+  padding: 5px;
+}
+.gethub {
+  border-style: solid;
+  border-radius: 5px;
+  background-color: orange;
+  border-color: orange;
+  padding: 5px;
+}
+.header-hubspot {
+  background-color: white;
   height: 80px;
-  width: 50%;
+}
+img {
+  margin-left: 200px;
+  margin-top: 20px;
 }
 .header-hubSpot::after {
   content: '';
@@ -30,13 +71,13 @@
   float: left;
   height: 80px;
   width: 50%;
-  background-color: green;
+  /* background-color: green; */
 }
 .header-hubspot-right {
   float: right;
   height: 80px;
   width: 50%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .better {
   height: 500px;
