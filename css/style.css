@@ -63,7 +63,7 @@
   background-color: white;
   height: 80px;
 }
-img {
+.heder-hubspot img  {
   margin-left: 300px;
   margin-top: 20px;
 }
@@ -348,6 +348,7 @@ main {
   float: left;
   height: 180px;
   width: 300px;
+  text-align: center;
 }
 .due ,.tre ,.sei,.sette{
   border-right: 3px solid white;
@@ -357,12 +358,13 @@ main {
   }
 .table {
   color: white;
+  text-align: center;
 }
 .table-final {
   padding-bottom: 150px;
 }
 .image-table {
-  margin-left: 120px;
+  /* margin-left: 120px; */
   padding-top: 15px;
 }
 .title-table {
