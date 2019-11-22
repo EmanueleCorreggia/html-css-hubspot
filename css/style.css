@@ -153,12 +153,10 @@ main {
   background-color: #F5F8FA;
 }
 .main-top {
-  /* height: 400px; */
   margin-left: 400px;
   margin-right: 400px;
-  /* background-color: red; */
 }
-img {
+.cubo {
   margin-left: 400px;
   padding-top: 100px;
 }
@@ -175,10 +173,61 @@ img {
   color:#33475B;
 }
 .main-crm {
-  height: 300px;
+  /* height: 300px; */
   margin-left: 400px;
   margin-right: 400px;
-  background-color: yellow;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.image-crm {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.learn-more {
+  margin-left: 100px;
+  border-radius: 5px;
+  background-color: #FF8F73;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 160px;
+  line-height: 50px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.learn-more a{
+  text-decoration: none;
+  color: white;
+}
+.main-crm::after {
+  content: '';
+  display:table;
+  clear: both;
+}
+.crm-float{
+  float: left;
+  width: 30%;
+}
+.Free-HubSpot-CRM{
+  float: left;
+  margin-top: 55px;
+  color: #33475B;
+  width: 70%;
+}
+.Free-HubSpot-CRM h2{
+  margin-bottom: 20px;
+}
+.popular-features li {
+  display: inline;
+  margin-left: 5px;
+}
+.fa-check-circle {
+  color: #FF8F73;
+}
+.text-popular {
+  text-transform: uppercase;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .main-col {
