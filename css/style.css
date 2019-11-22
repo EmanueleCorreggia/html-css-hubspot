@@ -24,9 +24,12 @@
 .haeder-top a {
   color: #33475B;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 5px;
   padding-right: 5px;
+}
+.fa-search{
+  color: #08A7BF
 }
 .haeder-top li {
   display: inline;
@@ -37,8 +40,12 @@
   margin-right: 400px;
   margin-left: 100px;
 }
+.fa-caret-down {
+  font-size: 20px;
+  color: #7C98B6;
+}
 .login {
-  border-style: solid;
+  border-style:solid;
   border-radius: 5px;
   border-color: #FF8F73;
   background-color: white;
@@ -69,13 +76,26 @@ img {
   float: left;
   height: 80px;
   margin-left: 100px;
-  /* background-color: green; */
+}
+.header-hubspot-right {
+  line-height: 80px;
+}
+.lis-right {
+  margin-left: 150px;
+  font-size: 20px;
+}
+.header-hubspot-right li {
+  display: inline;
+}
+.header-hubspot a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
 }
 .header-hubspot-right {
   float: right;
   height: 80px;
   width: 50%;
-  /* background-color: blue; */
 }
 .better {
   height: 500px;
