@@ -231,7 +231,7 @@ main {
   margin-bottom: 20px;
 }
 .main-col {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 .main-col::after {
   content: '';
@@ -262,22 +262,22 @@ main {
   color: #33475B;
   font-size: 14px;
 }
-.col-left li {
+.col-left li, .col-center li,.col-right li {
   color: #33475B;
   margin-left: 30px;
   margin-bottom: 5px;
   }
-.col-left li i {
+.col-left li i,.col-center li i,.col-right li i {
   margin-right: 10px;
 }
 .learn-more-marketing {
-  margin-left: 50px;
+  margin-left: 85px;
 }
 .col-center {
   float: left;
-  height: 400px;
+  /* height: 400px; */
   width: 17.3%;
-  background-color: black;
+  background-color: white;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -295,9 +295,9 @@ main {
 }
 .col-right {
   float: left;
-  height: 400px;
+  /* height: 400px; */
   width: 17.5%;
-  background-color: grey;
+  background-color: white;
 }
 .learn {
   height: 800px;
