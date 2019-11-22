@@ -149,11 +149,30 @@ img {
   width: 190px;
 }
 /* main */
+main {
+  background-color: #F5F8FA;
+}
 .main-top {
-  height: 400px;
+  /* height: 400px; */
   margin-left: 400px;
   margin-right: 400px;
-  background-color: red;
+  /* background-color: red; */
+}
+img {
+  margin-left: 400px;
+  padding-top: 100px;
+}
+.powerfull {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #33475B;
+}
+.powerfull-small{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+  color:#33475B;
 }
 .main-crm {
   height: 300px;
