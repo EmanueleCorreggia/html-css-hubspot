@@ -77,6 +77,9 @@ img {
   height: 80px;
   margin-left: 100px;
 }
+.border-nav {
+  border-left: 1px solid #33475B;
+}
 .header-hubspot-right {
   line-height: 80px;
 }
@@ -300,8 +303,8 @@ main {
   background-color: white;
 }
 .learn {
-  height: 800px;
-  background-color: #00B8AA;
+  /* height: 800px; */
+  background-color: #00B8A9;
 }
 .final-main {
   height: 800px;
@@ -311,4 +314,62 @@ main {
 .page-footer {
   height: 800px;
   background-color: grey;
+}
+.learn-title {
+  width: 42%;
+  margin-left: 550px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 30px;
+}
+.learn-p {
+  text-align: center;
+  color: white;
+  width: 42%;
+  margin-left: 550px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.table::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.uno, .cinque {
+  float: left;
+  height: 180px;
+  width: 300px;
+  margin-left: 400px;
+  border-right: 3px solid white;
+}
+.due ,.tre ,.sei,.sette,.quattro , .otto {
+  float: left;
+  height: 180px;
+  width: 300px;
+}
+.due ,.tre ,.sei,.sette{
+  border-right: 3px solid white;
+}
+.uno ,.due, .tre, .quattro {
+  border-bottom: 3px solid white;
+  }
+.table {
+  color: white;
+}
+.table-final {
+  padding-bottom: 150px;
+}
+.image-table {
+  margin-left: 120px;
+  padding-top: 15px;
+}
+.title-table {
+  font-size: 50px;
+  text-align: center;
+}
+.p-table {
+  margin-top: 10px;
+  text-align: center;
 }
