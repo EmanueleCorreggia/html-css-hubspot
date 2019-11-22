@@ -240,10 +240,38 @@ main {
 }
 .col-left {
   float: left;
-  height: 400px;
   width: 17.3%;
-  background-color: green;
+  background-color: white;
   margin-left: 400px;
+}
+.marketing-hub {
+  margin: 0;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.marketing_title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #33475B;
+}
+.popular-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #33475B;
+  font-size: 14px;
+}
+.col-left li {
+  color: #33475B;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  }
+.col-left li i {
+  margin-right: 10px;
+}
+.learn-more-marketing {
+  margin-left: 50px;
 }
 .col-center {
   float: left;
@@ -252,6 +280,18 @@ main {
   background-color: black;
   margin-left: 3%;
   margin-right: 3%;
+}
+.marketing-p {
+ margin-right: 20px;
+ margin-left: 20px;
+ color:#33475B;
+ margin-bottom: 30px;
+}
+.marketing-hr {
+  color:#33475B;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
 }
 .col-right {
   float: left;
