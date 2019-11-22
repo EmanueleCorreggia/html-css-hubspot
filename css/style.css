@@ -98,12 +98,55 @@ img {
   width: 50%;
 }
 .better {
-  height: 500px;
+  height: 900px;
   background-color: grey;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+  }
+.bannerone {
+  position:relative;;
+  width: 60%;
+  height: 400px;
+  margin: 0;
+  color: #33475B;
 }
-.header-bottom {
+.testo-bannerone {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  left: 400px;
+  width: 35%;
+}
+.title-banner {
+  font-size: 50px;
+  margin-top: 300px;
+  margin-bottom: 30px;
+  color: #33475B;
+}
+.mini-text {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.tasto-big {
+  border-radius: 5px;
+  background-color: #FF8F73;
+  font-size: 22px;
   height: 80px;
-  background-color: lightgreen;
+  text-align: center;
+  width: 200px;
+  line-height: 70px;
+  margin-bottom: 20px;
+  color: white;
+  }
+.tasto-big a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.text-small {
+  width: 190px;
 }
 /* main */
 .main-top {
