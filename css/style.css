@@ -63,7 +63,7 @@
   background-color: white;
   height: 80px;
 }
-.heder-hubspot img  {
+.header-hubspot img  {
   margin-left: 300px;
   margin-top: 20px;
 }
@@ -374,4 +374,74 @@ main {
 .p-table {
   margin-top: 10px;
   text-align: center;
+}
+.final-main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.title-number {
+  font-size: 45px;
+  color: #33475B;
+}
+.title-p {
+  font-size: 23px;
+  width: 250px;
+  color: #33475B;
+}
+.final-main {
+  /* height: 800px; */
+  background-color: white;
+}
+.number {
+  float: left;
+  margin-left: 460px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.conteiner-logo {
+  float: right;
+  width: 800px;
+  margin-right: 200px;
+}
+.logo-top {
+  float: right;
+  margin-top: 100px;
+  width: 800px;
+}
+.logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 120px;
+  background-size: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.float-left {
+  float: left;
+}
+.logo1 {
+  background-image: url(../img/Atlassian-horizontal-blue@2x.webp);
+}
+.logo2 {
+  background-image: url(../img/doordash_owler_20181011_194113_original@2x.webp);
+}
+.logo3 {
+  background-image: url(../img/g2crowd-logo@2x.webp);
+}
+.logo4 {
+  background-image: url(../img/purple-logo@2x.webp);
+}
+.logo5 {
+  background-image: url(../img/Subaru_Logo_v2_186x63@2x.webp);
+}
+.logo6 {
+  background-image: url(../img/Wistia_logo@2x.webp);
+}
+.logo7 {
+  background-image: url(../img/Classpass-logo@2x.webp);
+}
+.logo8 {
+  background-image: url(../img/VMware_logo_gry_RGB_300dpi@2x.webp);
 }
