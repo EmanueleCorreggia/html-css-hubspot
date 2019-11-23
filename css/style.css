@@ -306,10 +306,6 @@ main {
   /* height: 800px; */
   background-color: #00B8A9;
 }
-.final-main {
-  height: 800px;
-  background-color: lightgreen;
-}
 /* footer */
 .page-footer {
   height: 800px;
@@ -397,7 +393,7 @@ main {
   float: left;
   margin-left: 460px;
   margin-top: 150px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 .conteiner-logo {
   float: right;
@@ -444,4 +440,32 @@ main {
 }
 .logo8 {
   background-image: url(../img/VMware_logo_gry_RGB_300dpi@2x.webp);
+}
+.startgrowing {
+  float: left;
+  width: 450px;
+  height: 200px;
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+.china {
+  float: right;
+  background-image: url(../img/woman.webp);
+  background-size: contain;
+  background-position: center;
+  height: 400px;
+  width: 400px;
+  margin-right: 350px;
+  margin-top: 80px;
+  background-repeat: no-repeat;
+}
+.ultimo {
+  margin-top: 30px;
+}
+.startgrowing ,h1, p {
+  color:#33475B;
+}
+.ultimo2 {
+  font-size: 12px;
 }
