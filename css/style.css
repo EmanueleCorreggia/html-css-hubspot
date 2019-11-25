@@ -21,17 +21,21 @@
 .list {
   list-style: none;
 }
-.header-top-right a:hover {
+.haeder-top a:hover {
   color: #FF8F73;
+  cursor: pointer;
 }
 .tasto-big a:hover {
   color: #FF8F73;
+  cursor: pointer;
 }
 .main-crm a:hover {
   color: #FF8F73;
+  cursor: pointer;
 }
 .main-col a:hover {
   color: #FF8F73;
+  cursor: pointer;
 }
 .header-top-left a {
   color: #33475B;
@@ -75,6 +79,10 @@
   border-radius: 5px;
   color: #FF7A59;
 }
+.haeder-top {
+  position: fixed;
+  width: 100%;
+}
 .gethub {
   border-radius: 5px;
   background-color: #FF7A59;
@@ -89,6 +97,8 @@
 .header-hubspot {
   background-color: white;
   height: 80px;
+  margin-top: 80px;
+  width: 100%;
 }
 .header-hubspot img  {
   margin-left: 300px;
@@ -134,7 +144,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 90%;
-  }
+}
 .bannerone {
   position:relative;;
   width: 60%;
@@ -520,7 +530,7 @@ main {
   width: 190px;;
   background-color: red;
   float: right;
-  margin-right: 310px;
+  margin-right: 340px;
   border-radius: 5px;
   background-color: white;
 }
@@ -540,7 +550,7 @@ main {
 }
 .social {
   float: right;
-  margin-right: 320px;
+  margin-right: 340px;
   margin-top :30px;
   }
 .social li {
